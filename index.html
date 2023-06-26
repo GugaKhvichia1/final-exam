@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(251,217, 176);">
+
+    <div class="container">
+        
+        <h1><u>Final</u></h1>
+
+        <div class="elementContainer">
+            <span class="element">Posts</span>
+            <span class="element">Comments</span>
+            <span class="element">Photos</span>
+            <span class="element">Users</span>
+        </div>
+
+        <button class="button"><b>Login</b></button>
+
+    </div>
+
+    <h1 style="text-align: center;"><u>Users</u></h1>
+
+    <div class="userContainer" id="userCard">
+    </div>
+
+    <div class="newPost">
+        <div>
+
+            <h1 style="text-align: center;">Add New Post</h1>
+
+            <input type="text" id="id" class="IdInput" placeholder="ID" disabled>
+
+            <input type="text" id="title" class="titleInput" placeholder="Title">
+
+            <h2 style="margin-left: 20px; margin-top: 30px; overflow: hidden;">Body</h2>
+
+            <textarea id="body" class="body"></textarea>
+
+            <button onclick="Submit()" class="submitButton"><b>Submit</b></button> 
+            
+        </div>
+    </div>
+
+    <h1 style="text-align: center;"><u>Photos</u></h1>
+
+    <div class="photoContainer" id="Photos">
+    </div>    
+
+    <script src="script.js"></script>
+</body>
+</html>
